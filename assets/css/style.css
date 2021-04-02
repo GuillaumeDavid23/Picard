@@ -1,0 +1,284 @@
+/* Config de bases */
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium'
+    
+}
+
+/* DEBUT PAGE PRINCIPALE*/
+.container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+/* Bannière */
+header{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* LOGO */
+.logo{
+    display: flex;
+    width: 60%;
+    height: 85%;
+    background-color: #ca2536;
+}
+#triangle-code{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 100px solid white;
+    border-right : 100px solid transparent;
+   }
+#triangle{
+    position: absolute;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-bottom : 60px solid #dbddd0;
+    border-left : 60px solid transparent;
+}
+.logo h1{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 100px;
+    line-height: 75px;
+    text-align: justify;
+    word-wrap: break-word;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+/* NEWS bannière */
+.new{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 85%;
+}
+.new h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',;
+    font-weight:bold;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.new h4{
+    margin: 0;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+}
+.new p{
+    color: #ca2536;
+    margin-top: 0;
+    margin: 0;
+    margin-right: 30px;
+    align-self: flex-end;
+}
+
+/* Sous bannière */
+.date{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.date h2{
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 92%;
+    height: 100%;
+    font-size: 15px;
+}
+.date p{
+    height: 100%;
+    width: 8%;
+    margin:0;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+/* CORPS DE LA PAGE */
+.index{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.one{
+    background-image: url(../img/casimir.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.one h3{
+    padding-top: 5px;
+    color: white;
+    background-color: #ca2536;
+    width: 200px;
+    height: 30px;
+    align-self: flex-end;
+    text-align: center;
+    font-family: serif;
+}
+.one h2{
+    font-size: 70px;
+    align-self: flex-end;
+    color: #3f3f3f;
+    margin-top: 0;
+    margin-right: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.one h4{
+    align-self: flex-end;
+    font-size: 18px;
+    margin:0;
+    margin-right: 30px;
+    margin-top: 300px;
+    font-family: serif;
+    color: white;
+}
+
+.one p{
+    align-self: flex-end;
+    font-size: 20px;
+    margin-right: 30px;
+    color: #ca2536;
+    
+}
+
+/* Coté de la page */
+
+aside{
+    margin: 0;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: #dcdcd0;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.two h2{
+    color: #ca2536;
+    padding-left: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+.two h4{
+    font-family: serif;
+    font-size: 20px;
+    padding-left: 20px;
+    margin:0;
+    margin-top: 5px;
+}
+.two img{
+    width: 85%;
+    margin: auto;
+}
+.two p{
+    margin:0;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #ca2536;
+}
+.three{
+    
+    width: 100%;
+    height: 40%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid black;
+}
+.three h4{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    color: #ca2536;
+    margin-bottom: 0;
+}
+.three h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.three p{
+    margin-top: 20px;
+    color: black;
+    padding-left: 20px;
+}
+/* PIED DE PAGE */
+footer img{
+    width: 950px;
+}
+
+/* PAge suivante */
+.next{
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    background-color: #ca2536;
+    justify-content: center;
+}
+
+.next a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.page .logo{
+    width: 100%;
+}
+
+/* PAGE 1 */
+
+.page1{
+    text-align: center;
+}
+
+.paque_img img{
+    border: 5px solid grey;
+}
+
